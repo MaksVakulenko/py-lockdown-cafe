@@ -3,7 +3,7 @@ from app import errors
 
 
 class Cafe:
-    def __init__(self, name: int) -> None:
+    def __init__(self, name: str) -> None:
         self.name = name
 
     def visit_cafe(self, visitor: dict) -> str:
